@@ -15,10 +15,14 @@ set softtabstop=4
 set expandtab
 set shiftround
 set smarttab
+set laststatus=2
+set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
 
 set guifont=Inconsolata\ 10
 
 set t_Co=256
+
+" http://dotshare.it/dots/282/
 colorscheme bubblegum
 
 " bundle setup
