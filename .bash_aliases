@@ -6,3 +6,6 @@ alias ls='ls -al --color'
 alias rm='rm -rf'
 alias jkl='jekyll serve --watch'
 alias rsvr='rails server'
+
+# stackoverflow.com/questions/10158508/lose-vim-colorscheme-in-tmux-mode
+alias tmux='TERM=screen-256color-bce tmux -2'

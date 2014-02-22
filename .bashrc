@@ -151,3 +151,6 @@ function extract()      # Handy Extract Program
         echo "'$1' is not a valid file!"
     fi
 }
+
+# for tmux: export 256 color
+[ -n "$TMUX" ] && export TERM=screen-256color

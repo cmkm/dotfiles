@@ -15,6 +15,12 @@ set softtabstop=4
 set expandtab
 set shiftround
 set smarttab
+
+" wrapping
+set linebreak
+set showbreak=↳\
+
+" always show status line
 set laststatus=2
 set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
 
@@ -34,3 +40,4 @@ filetype plugin indent on
 " github bundles
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/The-NERD-tree'
+Bundle 'tpope/vim-markdown'
